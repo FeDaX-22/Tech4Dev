@@ -100,3 +100,25 @@ ul li a{
       transform: translateX(-100%);
     }
 }
+
+table {
+    width: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+thead {
+    color: #fff;
+    background-color: #3b3a3a;
+}
+
+th, td {
+    text-align: left;
+    border: .01px solid #535353;
+    padding: 2px;
+}
+
+table tbody tr:hover {
+    color: #feffff;
+    background-color: #3b3a3a;
+}
