@@ -61,6 +61,7 @@ ul li a{
      color: #FFFF;
 }
 
+
 #scroll-container {
     width: 600px;
     margin: auto;
@@ -79,6 +80,7 @@ ul li a{
     -webkit-animation: my-animation 20s linear infinite;
     animation: my-animation 20s linear infinite;
   }
+
   
  
   
@@ -99,4 +101,18 @@ ul li a{
       -webkit-transform: translateX(-100%);
       transform: translateX(-100%);
     }
+    
+}
+.footer{
+    background-color: green;
+    margin-top: 20px;
+}
+h2{
+    margin-left: 100px;
+    margin-top: -10px;
+    color: white;
+}
+.joseph{
+    margin-top: 10px;
+
 }
