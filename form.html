@@ -18,6 +18,63 @@
 				<li><a href="./dashboard.html">Dashboard</a></li>
 			</ul>
 		</nav>
+
+		<form action="./dashboard.html">
+			<h1>Register as a new member</h1>
+			<div id="form_inputs">
+				<label for="firstname">
+					First name
+					<input type="text" name="firstname" id="firstname" placeholder="Oyindamola" required>
+				</label>
+				<label for="lastname">
+					Last name
+					<input type="text" name="lastname" id="lastname" placeholder="Adewale" required>
+				</label>
+				<label for="email">
+					Email
+					<input type="email" name="email" id="email" placeholder="youremail@domain.com" required>
+				</label>
+				<label for="phone">
+					Phone
+					<input type="tel" name="phone" id="phone"
+					placeholder="+23490xxxxxxxx" required>
+				</label>
+				<label for="dob">
+					Date of Birth
+					<input type="date" name="dob" id="dob" required>
+				</label>
+				<label for="stack">
+					Stack
+					<select name="stack" id="stack" required>
+						<option value="">--Choose your stack--</option>
+						<option value="frontend">Frontend Dev</option>
+						<option value="backend">Backend Dev</option>
+						<option value="devops">DevOps Engineer</option>
+						<option value="cloud">Cloud Engineer</option>
+					</select>
+				</label>
+				<div role="group" aria-labelledby="gender" aria-required="">
+					<div id="gender">Gender:</div>
+					<div class="option-group">
+						<label for="male">
+							<p>Male</p>
+						</label>
+						<input type="radio" name="male" id="male">
+					</div>
+					<div class="option-group">
+						<label for="female">
+							<p>Female</p>
+						</label>
+						<input type="radio" name="female" id="female">
+					</div>
+					<label for="social_link">
+						Social Link
+						<input type="url" name="social_link" id="social_link" required>
+					</label>
+					<button type="submit">Submit</button>
+				</div>
+			</div>
+		</form>
 	</main>
 </body>
 </html>
