@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    align-items: center;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4vh;
+    min-height: 130vh;
+    padding-bottom: 4vh;
+}
+
+nav {
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 5px 11px -3px #93AF96;
+    display: flex;
+    padding: 0 2%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+nav img {
+    background-color: beige;
+    margin-right: auto;
+    width: 10%;
+}
+nav ul {
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 30%;
+}
+
+nav ul li{
+    background-color: lime;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+nav ul li:hover{
+    background-color: green;
+    transition: 0.9s ease-in-out;
+}
+nav ul li a{
+    text-decoration: none;
+     color: #FFFF;
+}
+
+/* Form Css */
+
+form {
+    background-color: burlywood;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    margin-top: 10vh;
+    padding: 60px;
+    width: 50%;
+}
+form h1 {
+    font-size: 30px;
+    margin-bottom: 5vh;
+}
+
+form #form_inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, .option-group  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+
+#form_inputs label input, #form_input label select {
+    border: 1px solid hsl(197, 88%, 36%);
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height: 32px;
+    margin-top: 1vh;
+    outline: none;
+    padding: 4px 6px;
+}
+
+#form_inputs label input:focus, #form_input label select:focus {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+form .option-group label {
+    margin: 0;
+}
+form .option-group label p {
+    width: 30px;
+}
+form .option-group input {
+    margin-left: 15%;
+}
+form .option-group {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+}
+form button {
+    background-color: cadetblue;
+    /* border: 1px solid hsl(197, 88%, 36%); */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 6vh;
+    margin-top: 3vh;
+    padding: 5px 10px;
+    width: 100%;
+}
+form button:hover {
+    /* border: 1px solid hsl(197, 88%, 26%); */
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
